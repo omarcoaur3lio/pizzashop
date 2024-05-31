@@ -8,15 +8,15 @@
   <a aria-label="Completed" href="https://rocketseat.com.br/">
     <img src="https://img.shields.io/badge/Ignite-000?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAoCAYAAABw65OnAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGHSURBVHgBxZc9UsMwEIVfoKHkCHsEH8E3CC0VvgG5gc0NcgP7BpTQ+QgOHZ2hpIKSLkgjeSIS2aOftfTNvImTGUVPq92VvEE6OqGt0EHoR+hNPx+QiFroOKMGCSgXDIxCt1iJUktO0C8YIKxEgfmVmyqmAdfghYRe4BbiL/35AWYGuEXB1A6M1AEGWPPiMcDAkdMABRpg2waCCqmvgT0Y6QMMDPBgqmNZbs9QK25x2sc6wIBXIhbGoG/Ln4VE4F+DcmEXOMmSGnjSMRsISsSYSMjEM7dwRAQEtzZsTtgYYyuo3CEwUGG+F3RQ1UNCd1gJOcFWT7JHZKLFIMPdaiOkn1lPPhcanBLsAZk4rxTZPQmJ6WFPyhpMuFzvurPv8p3hVehGaCP0jgSYVSHzwqv/uzAXCYK6Lcnaf4K6lP4K3SPRygkRxy8XDS6TsMWKXFl+s/WCTyQ0UcEe+qiT0BdbT+iQEMptALi8TXXIwJjbgGxKQ04DE2NuA3VOA7JPENRpWCEjJTLzBwzMMNX+FpToAAAAAElFTkSuQmCC&labelColor=E1E1E6&logoColor=000"></img>
 </a>
-    <a href="./README_en.md">
-    <img alt="Read in english" src="https://img.shields.io/badge/-Read in english-000?style=flat&logo=google-translate&logoColor=000&labelColor=E1E1E6" />
+    <a href="./README.md">
+    <img alt="Leia em português" src="https://img.shields.io/badge/-Leia em português-000?style=flat&logo=google-translate&logoColor=000&labelColor=E1E1E6" />
 </a>
 </p>
 
-## :speech_balloon: Visão Geral
+## :speech_balloon: Overview
 
-Esse projeto foi construído durante o programa Ignite da [Rocketseat](www.rocketseat.com.br) e teve como objetivo exercitar conceitos do React, principalmente em relação a comunicação com APIs via requisições HTTP. <br />
-A aplicação é um painel administrativo de uma pizzaria, onde é possível verificar as principais métricas do estabelecimento bem como realizar a administração dos pedidos realizados.
+This project was built during the [Rocketseat](www.rocketseat.com.br) Ignite program and aimed to exercise React concepts, mainly in relation to communication with APIs via HTTP requests. <br />
+The application is an administrative panel for a pizzeria, where it is possible to check the establishment's main metrics as well as manage orders placed.
 
 ## :camera: Preview
 
@@ -25,42 +25,42 @@ A aplicação é um painel administrativo de uma pizzaria, onde é possível ver
 </div>
 
 
-### Funcionalidades
+### Functionalities
 
-- Passwordless: Login do usuário usando magic link.
-- Dashboard: Página para exibição da principais métricas do estabelecimento, como:
-  - Receita total
-  - Número de pedidos
-  - Número de cancelamentos
-  - Gráfico com a receita diária dentro de um período específico
-  - Gráfico contendo os pedidos mais populares
-- Listagem de pedidos: Consumo de API para busca e administração dos pedidos do estabelecimento.
+- Passwordless: User login using magic link.
+- Dashboard: Page to display the establishment's main metrics, such as:
+  - Total revenue
+  - Number of orders
+  - Number of cancellations
+  - Chart with daily revenue within a specific period
+  - Chart containing the most popular orders
+- Order listing: API consumption for searching and managing the establishment's orders.
 
 
 <br />
 
-A seguir, alguns dos conceitos postos em prática durante o desenvolvimento:
+Below are some of the concepts put into practice during development:
 
 - React Hooks (useState, useCallback, useContext)
-- Consumo de API com axios
+- API consumption with axios
 - TailwindCSS
 - ContextAPI
-- Roteamento com React Router
+- Routing with React Router
 - React Hook Form
-- Construção de interface com shadcn/ui
-- Consultas com React Query
+- Construction of interface with shadcn/ui
+- Queries with React Query
 
 
-## :art: Temas
+## :art: Themes
 
-A aplicação está disponivel nos temas dark e light.
+The application is available in dark and light themes.
 
 <div align="center">
   <img src="./.github/theme.png" width=100% />
 </div>
 
 
-## :rocket: Tecnologias Utilizadas
+## :rocket: Technologies
 
   <a href="https://react.dev/">
     <img alt="reactjs" src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%FF5C00" />
@@ -85,5 +85,5 @@ A aplicação está disponivel nos temas dark e light.
 <br />
 
 <p align="center">
-  Feito com :purple_heart:
+  Made with :purple_heart:
 </p>

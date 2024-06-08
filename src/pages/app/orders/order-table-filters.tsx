@@ -16,7 +16,7 @@ import {
 
 const orderFiltersSchema = z.object({
   orderId: z.string().optional(),
-  costumerName: z.string().optional(),
+  customerName: z.string().optional(),
   status: z.string().optional(),
 })
 
@@ -26,7 +26,7 @@ export function OrderTableFilters() {
   const [searchParams, setSearchParams] = useSearchParams()
 
   const orderId = searchParams.get('orderId')
-  const costumerName = searchParams.get('costumerName')
+  const customerName = searchParams.get('customerName')
   const status = searchParams.get('status')
 
   const { register, handleSubmit, control, reset } =
@@ -34,12 +34,12 @@ export function OrderTableFilters() {
       resolver: zodResolver(orderFiltersSchema),
       defaultValues: {
         orderId: orderId ?? '',
-        costumerName: costumerName ?? '',
+        customerName: customerName ?? '',
         status: status ?? 'all',
       },
     })
 
-  function handleFilter({ orderId, costumerName, status }: OrderFiltersSchema) {
+  function handleFilter({ orderId, customerName, status }: OrderFiltersSchema) {
     setSearchParams((prevState) => {
       if (orderId) {
         prevState.set('orderId', orderId)
@@ -47,10 +47,10 @@ export function OrderTableFilters() {
         prevState.delete('orderId')
       }
 
-      if (costumerName) {
-        prevState.set('costumerName', costumerName)
+      if (customerName) {
+        prevState.set('customerName', customerName)
       } else {
-        prevState.delete('costumerName')
+        prevState.delete('customerName')
       }
 
       if (status) {
@@ -68,14 +68,14 @@ export function OrderTableFilters() {
   function handleClearFilters() {
     setSearchParams((prevState) => {
       prevState.delete('orderId')
-      prevState.delete('costumerName')
+      prevState.delete('customerName')
       prevState.delete('status')
       prevState.set('page', '1')
       return prevState
     })
     reset({
       orderId: '',
-      costumerName: '',
+      customerName: '',
       status: 'all',
     })
   }
@@ -94,7 +94,7 @@ export function OrderTableFilters() {
       <Input
         placeholder="Nome do cliente"
         className="h-8 w-[320px]"
-        {...register('costumerName')}
+        {...register('customerName')}
       />
       <Controller
         control={control}

@@ -49,6 +49,8 @@ Below are some of the concepts put into practice during development:
 - React Hook Form
 - Construction of interface with shadcn/ui
 - Queries with React Query
+- Unit tests with Vitest and Testing Library
+- E2E tests with MSW and Playwright
 
 
 ## :art: Themes
@@ -80,8 +82,16 @@ The application is available in dark and light themes.
   <a href="https://tanstack.com/query/latest/docs/framework/react/overview">
     <img alt="react-query" src="https://img.shields.io/badge/React query-%2320232a.svg?style=for-the-badge&logo=react-query&logoColor=fd7215" />
   </a>
+  <a href="https://vitest.dev/">
+    <img alt="Vitest" src="https://img.shields.io/badge/Vitest-%2320232a.svg?style=for-the-badge&logo=vitest&logoColor=##ACD268" />
+  </a>
+  <a href="https://testing-library.com/">
+    <img alt="testing library" src="https://img.shields.io/badge/Testing Library-%2320232a.svg?style=for-the-badge&logo=testinglibrary&logoColor=#FE4646" />
+  </a>
+  <a href="https://mswjs.io/docs/">
+    <img alt="Mock Service Worker" src="https://img.shields.io/badge/MSW-%2320232a.svg?style=for-the-badge&logo=mock-service-worker&logoColor=#FE4646" />
+  </a>
 <br>
-
 <br />
 
 <p align="center">
